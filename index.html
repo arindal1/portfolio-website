@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "icon.png" type = "image/x-icon">
+    <title>Personal Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <img id="fas" src="cross.png" onclick="closemenu()">
+                </ul>
+                <img id="fas" src="menu.png" onclick="openmenu()">
+            </nav>
+            <div class="header-text">
+                <p>Hi There!</p>
+                <h1>I'm <span>Arindal Char</span></h1>
+                <h3>A &lt;coder&gt; & Tech Enthusiast</h3>
+            </div>
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic.jpg" alt="userpicture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>I'm a B.Tech Undergraduate pusuing Computer Science and Engineering (Artificial Intelligence and Machine Learning) from Institute of Engineering and Management, Kolkata.
+                        <br>I like coding and AIML.</p>
+                    <br>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Over 2000 Lines</span><br>C, Java, Python, Latex, JypiterNotebook</li>
+                            <li><span>Over 800 Lines</span><br>C++, Shell, Prolog, HTML, CSS, JavaScript</li>
+                            <li><span>Familiar</span><br>Matlab, VHDL, MySQL, Git</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Coding</span><br>Gold Badges for C and Java in Hackerrank<br>Over 80 problems in Leetcode</li>
+                            <li><span>Contests</span><br>Partcipated in Coding Contests in Codechef and Leetcode</li>
+                            <li><span>Courses</span><br>Completed many online Courses from<br>Udemy, NPTEL</li>
+                            <li><span>Academics</span><br>Operating Systems, DSA, DBMS<br>Artificial Intelligence & Machine Learning<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br>UG BTech on CSE (Artificial Intelligence & Machine Learning)<br>Institute of Engineering & Management, Kolkata</li>
+                            <li><span>2013-2021</span><br>Higher Secondary (ICSE)<br>St. Patrick's HS School, Asansol</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="1.png" alt="analog clock">
+                    <div class="layer">
+                        <h3>Analog Clock</h3>
+                        <p>A simple Analog Clock I made using Vanilla HTML,CSS and JS. My first frontend project.</p>
+                        <a href="https://arindal1.github.io/Clock-project-in-JS/"  target="_blank"><img src="extlink.png"></a>
+                    </div>
+                </div>
+            
+                <div class="work">
+                    <img src="2.png" alt="fire detector">
+                    <div class="layer">
+                        <h3>Fire Detector</h3>
+                        <p>A CNN based project for Fire Detection and Localization using CCTV Cameras I made for Machine Learning practicals in 2nd Year.</p>
+                        <a href="https://github.com/arindal1/FireDetectionAndLocalization"  target="_blank"><img src="extlink.png"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="3.png" alt="weather app">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>A Weather App I made using classic HTML, CSS and JS while using a Weather API from RapidAPI.com (under progress).</p>
+                        <a href="#projrct"><img src="extlink.png"></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="4.png" alt="algorithm visualizer">
+                    <div class="layer">
+                        <h3>Sorting Visualiser</h3>
+                        <p>A simple Visualiser for Bubble, Insertion, Selection, Merge and Quicksort using classic HTML, CSS and JS (under progress).</p>
+                        <a href="#project"><img src="extlink.png"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="cons.jpg" alt="Under Construction">
+                    <div class="layer">
+                        <h3>[Place Holder]</h3>
+                        <p>Future projects will show up here...</p>
+                        <a href="cons.jpg" target="_blank"><img src="extlink.png"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="cons.jpg" alt="Under Construction">
+                    <div class="layer">
+                        <h3>[Place Holder]</h3>
+                        <p>Future projects will show up here...</p>
+                        <a href="cons.jpg" target="_blank"><img src="extlink.png"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#projects" class="btn">See more</a>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><img src="mail.png">arindalchar17@gmail.com</p>
+                    <p><img src="call.png">+91 9064940551</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/arindalchar" target="_blank"><img src="link.png" alt="linkedin"></a>
+                        <a href="https://github.com/arindal1" target="_blank"><img src="git.png" alt="github"></a>
+                        <a href="https://instagram.com/arindxl?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="ig.png" alt="instagram"></a>
+
+                    </div>
+                    <a href="my resume.pdf" download="" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your e-mail" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023 - Arindal Char - All Rights Reserved</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyC3NCGA9XZlTjEs_oILbzXreVnsreV-aFERpl7JlkmnhF2l9tIYYZOBF0mvkuLHgJT/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Succesfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+  </script>
+    
+</body>
+</html>
