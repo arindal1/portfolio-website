@@ -401,25 +401,7 @@ html{
         font-size: 16px;
         margin-right: 20px;
     }
-    .layer p {
-        display: none;
-        
-    }
-    .layer h3{
-        font-size: 10px;
-    }
-    .layer a{
-        margin-top: 5px;
-        color: whitesmoke;
-        text-decoration: none;
-        font-size: 18px;
-        line-height: 60px;
-        background: whitesmoke;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        text-align: center;
-    }
+    
 
     .contact-left, .contact-right{
         flex-basis: 100%;
