@@ -6,14 +6,14 @@
 }
 
 body {
-    background: #0a0b14;
+    background: #1a1a1a;
     color: #e5e5ef;
 }
 
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(cover.png);
+    background-image: url(cover2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -74,6 +74,9 @@ nav ul li a:hover::after {
 
 .header-text h1 span{
     color: #d71818;
+}
+.header-text h3 span{
+    font-style: oblique;
 }
 
 
