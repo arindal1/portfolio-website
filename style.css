@@ -351,6 +351,22 @@ html{
     display: block;
 }
 
+#redirectButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#redirectButton:hover {
+    background-color: #2980b9;
+}
+
 @media only screen and (max-width: 600px){
     #header {
         background-image: url(smallcover.png);
